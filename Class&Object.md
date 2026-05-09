@@ -118,49 +118,53 @@ Hello, my name is John
 
 ---
 
-# 👨‍💻 3. Another Person Class Example
+# 🚗 3.Car Class Example
 
-## 📝 Question
-
-Create a class called `Person`
-
-- Add an `__init__` method that takes `name` and `age`
-- Add a method called `greet`
-- Print `"Hello, my name is"` followed by the name
-- Create an object `p1`
-- Call the `greet()` method
+A simple Python OOP example demonstrating how to create a class, constructor, object, and method.
 
 ---
 
-## 💻 Code
+# 📝 Question
+
+Create a class called `Car`
+
+- Add an `__init__` method with a `brand` parameter
+- Store the brand as a property using `self`
+- Add a method called `show`
+- Print the brand name
+- Create an object `c1` with brand `"Ford"`
+- Call the `show()` method
+
+---
+
+# 💻 Code
 
 ```python
-# Create a class called Person
-class Person:
+# Create the Car class
+class Car:
 
-    # Constructor method
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+    # Constructor
+    def __init__(self, brand):
+        self.brand = brand
 
-    # Method to greet
-    def greet(self):
-        print("Hello, my name is", self.name)
+    # Method
+    def show(self):
+        print(self.brand)
 
 
-# Create an object
-p1 = Person("John", 36)
+# Create object
+c1 = Car("Ford")
 
-# Call the greet method
-p1.greet()
+# Call method
+c1.show()
 ```
 
 ---
 
-## ✅ Output
+# ✅ Output
 
 ```python
-Hello, my name is John
+Ford
 ```
 
 ---
