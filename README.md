@@ -2,7 +2,7 @@
 
 # 🚀 Python Preparation Repository
 
-A complete Python preparation repository covering core Python concepts, object-oriented programming, data structures, algorithms, Flask development, coding problems, and interview preparation.
+A complete Python preparation repository covering core Python concepts, object-oriented programming, data structures, algorithms, Flask development, coding problems.
 
 This repository is designed for:
 - Technical interview preparation
