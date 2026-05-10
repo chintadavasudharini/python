@@ -243,30 +243,61 @@ Age: 23
 
 ---
 
-# 8️⃣ Real-World Example — Dog Class 🐶
+# 8️⃣ Real-World Examples
 
-## Example
+---
 
-```python
-class Dog:
+# 🐶 1. Dog Class Example
 
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+## 📝 Question
 
-    def bark(self):
-        print(self.name + " says Woof!")
+Create a class called `Dog`
 
-d1 = Dog("Buddy", 3)
+- Add an `__init__` method with parameters `name` and `age`
+- Store them as properties using `self`
+- Add a method called `bark`
+- Print the dog's name followed by `" says Woof!"`
+- Create an object `d1`
+- Call the `bark()` method
 
-d1.bark()
-```
+---
 
-## Output
+---
 
-```python
-Buddy says Woof!
-```
+# 👤 2. Person Class Example
+
+## 📝 Question
+
+Create a class called `Person`
+
+- Add an `__init__` method that takes `name` and `age`
+- Add a method called `greet`
+- Print `"Hello, my name is"` followed by the name
+- Create an object `p1`
+- Call the `greet()` method
+
+---
+
+---
+
+# 🚗 3.Car Class Example
+
+A simple Python OOP example demonstrating how to create a class, constructor, object, and method.
+
+---
+
+# 📝 Question
+
+Create a class called `Car`
+
+- Add an `__init__` method with a `brand` parameter
+- Store the brand as a property using `self`
+- Add a method called `show`
+- Print the brand name
+- Create an object `c1` with brand `"Ford"`
+- Call the `show()` method
+
+---
 
 ---
 
