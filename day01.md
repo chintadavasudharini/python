@@ -243,7 +243,7 @@ Age: 23
 
 ---
 
-# 8️⃣ Real-World Examples
+# 8️⃣ Slove Some Examples
 
 ---
 
@@ -262,8 +262,6 @@ Create a class called `Dog`
 
 ---
 
----
-
 # 👤 2. Person Class Example
 
 ## 📝 Question
@@ -275,8 +273,6 @@ Create a class called `Person`
 - Print `"Hello, my name is"` followed by the name
 - Create an object `p1`
 - Call the `greet()` method
-
----
 
 ---
 
@@ -296,8 +292,6 @@ Create a class called `Car`
 - Print the brand name
 - Create an object `c1` with brand `"Ford"`
 - Call the `show()` method
-
----
 
 ---
 
